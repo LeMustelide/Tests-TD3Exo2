@@ -1,0 +1,14 @@
+
+i	java:S116"MRename this field "Fn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ËÍÓÏ8†ƒ…Èã1
+n	java:S116"MRename this field "Sn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞùÍŒøÿÿÿÿ8‡ƒ…Èã1
+n	java:S116"MRename this field "Gn" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á›À’úÿÿÿÿ8‡ƒ…Èã1
+G	java:S106"+Replace this use of System.out by a logger.(ìÜœß8Œƒ…Èã1
+8
+java:S3626-"Remove this redundant jump.(ûÁİ…8ƒ…Èã1
+F	java:S106,"+Replace this use of System.out by a logger.(—Ê8ƒ…Èã1
+G	java:S1060"+Replace this use of System.out by a logger.(§˜Ù8ƒ…Èã1
+L	java:S1061"+Replace this use of System.out by a logger.(“˜¼ûÿÿÿÿ8ƒ…Èã1
+G	java:S1062"+Replace this use of System.out by a logger.(‚àÖ¨8‘ƒ…Èã1
+G	java:S1065"+Replace this use of System.out by a logger.(§˜Ù8’ƒ…Èã1
+L	java:S1066"+Replace this use of System.out by a logger.(“˜¼ûÿÿÿÿ8’ƒ…Èã1
+G	java:S1067"+Replace this use of System.out by a logger.(‚àÖ¨8“ƒ…Èã1

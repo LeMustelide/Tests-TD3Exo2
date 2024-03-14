@@ -5,13 +5,12 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
-import org.mockito.Spy;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.mockito.Mockito.doReturn;
 
 @ExtendWith(MockitoExtension.class)
-public class GenerateurTest {
+public class GTest {
 
     @Mock
     private F f;
@@ -23,9 +22,6 @@ public class GenerateurTest {
     private Coupe c;
 
     @Mock
-    private Coupe coupe;
-
-    @Spy
     private Generateur generateur;
 
     private G g;

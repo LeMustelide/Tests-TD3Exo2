@@ -48,3 +48,5 @@ Q.idea/sonarlint/securityhotspotstore/6/c/6c25454483e2ce82b2e853dc40fecfa983cc2f
 Q.idea/sonarlint/securityhotspotstore/1/e/1ea418176953f4006b9e5b6f0f7f079d98534d77,f\9\f960fa0c7a2173bdfd9ad6443becac9428576dc2
 Å
 Q.idea/sonarlint/securityhotspotstore/8/4/843973c71ac3ba59796f144c0223f3fccec4dd4f,b\f\bfb33bd5b63ca2ba089fb43aaeee990cca602eb0
+T
+$src/test/java/org/example/GTest.java,6\f\6fe5a7a9058be0a51378e629f6bef20be1c958f7

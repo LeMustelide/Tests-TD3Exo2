@@ -11,7 +11,6 @@ public class G {
         Fn = f.fibonasuite(n);
         Sn = s.Syracus(n);
         traitement(coupe.coupe());
-        System.out.println("Gn = " + Gn);
     }
 
     public int getFn() {
@@ -45,14 +44,8 @@ public class G {
             return;
         } else {
             if(Sn+Fn<coupe) {
-                System.out.println("coupe = " + coupe);
-                System.out.println("Sn = " + Sn);
-                System.out.println("Fn = " + Fn);
                 setGn(Sn+Fn);
             } else {
-                System.out.println("coupe = " + coupe);
-                System.out.println("Sn = " + Sn);
-                System.out.println("Fn = " + Fn);
                 setGn(max(Sn,Fn));
             }
         }

@@ -3,9 +3,9 @@ package org.example;
 import java.util.Random;
 
 public class Generateur {
+    private Random r = new Random();
 
     public int random() {
-        Random r = new Random();
         return r.nextInt(20);
     }
 }

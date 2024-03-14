@@ -10,7 +10,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import static org.mockito.Mockito.doReturn;
 
 @ExtendWith(MockitoExtension.class)
-public class GTest {
+class GTest {
 
     @Mock
     private F f;
@@ -28,14 +28,14 @@ public class GTest {
 
 
     @BeforeEach
-    public void setUp() {
+    void setUp() {
         g = new G();
     }
 
 
     // Gn = 1
     @Test
-    public void testG1() {
+    void testG1() {
         doReturn(1).when(s).Syracus(0);
         doReturn(1).when(f).fibonasuite(0);
         doReturn(1).when(c).coupe();
@@ -46,7 +46,7 @@ public class GTest {
 
     // Gn = 4
     @Test
-    public void testG4() {
+    void testG4() {
         doReturn(4).when(s).Syracus(1);
         doReturn(1).when(f).fibonasuite(1);
         doReturn(1).when(c).coupe();
@@ -57,7 +57,7 @@ public class GTest {
 
     // Gn = 2
     @Test
-    public void testG2() {
+    void testG2() {
         doReturn(2).when(s).Syracus(2);
         doReturn(2).when(f).fibonasuite(2);
         doReturn(1).when(c).coupe();
@@ -68,7 +68,7 @@ public class GTest {
 
     // Gn = 89
     @Test
-    public void testG89() {
+    void testG89() {
         doReturn(4).when(s).Syracus(10);
         doReturn(89).when(f).fibonasuite(10);
         doReturn(1).when(c).coupe();
@@ -79,7 +79,7 @@ public class GTest {
 
     // Gn = 6765
     @Test
-    public void testG6765() {
+    void testG6765() {
         doReturn(4).when(s).Syracus(19);
         doReturn(6765).when(f).fibonasuite(19);
         doReturn(1).when(c).coupe();
@@ -90,7 +90,7 @@ public class GTest {
 
     // Gn = 10946
     @Test
-    public void testG10946() {
+    void testG10946() {
         doReturn(4).when(s).Syracus(20);
         doReturn(10946).when(f).fibonasuite(20);
         doReturn(1).when(c).coupe();
@@ -101,7 +101,7 @@ public class GTest {
 
     // Gn = 2
     @Test
-    public void testG2Bis() {
+    void testG2Bis() {
         doReturn(1).when(s).Syracus(0);
         doReturn(1).when(f).fibonasuite(0);
         doReturn(40).when(c).coupe();
@@ -112,7 +112,7 @@ public class GTest {
 
     // Gn = 5
     @Test
-    public void testG5() {
+    void testG5() {
         doReturn(4).when(s).Syracus(1);
         doReturn(1).when(f).fibonasuite(1);
         doReturn(40).when(c).coupe();
@@ -123,7 +123,7 @@ public class GTest {
 
     // Gn = 4
     @Test
-    public void testG4Bis() {
+    void testG4Bis() {
         doReturn(2).when(s).Syracus(2);
         doReturn(2).when(f).fibonasuite(2);
         doReturn(40).when(c).coupe();
@@ -134,7 +134,7 @@ public class GTest {
 
     // Gn = 10
     @Test
-    public void testG10() {
+    void testG10() {
         doReturn(4).when(s).Syracus(10);
         doReturn(89).when(f).fibonasuite(10);
         doReturn(40).when(c).coupe();
@@ -145,7 +145,7 @@ public class GTest {
 
     // Gn = 6765
     @Test
-    public void testG6765Bis() {
+    void testG6765Bis() {
         doReturn(4).when(s).Syracus(19);
         doReturn(6765).when(f).fibonasuite(19);
         doReturn(40).when(c).coupe();
@@ -156,7 +156,7 @@ public class GTest {
 
     // Gn = 10946
     @Test
-    public void testG10946Bis() {
+    void testG10946Bis() {
         doReturn(4).when(s).Syracus(20);
         doReturn(10946).when(f).fibonasuite(20);
         doReturn(40).when(c).coupe();
